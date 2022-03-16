@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+   
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Calculo se e primo</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="logo@2x.png"></a>
+    </header>
+    <div class="centro">
+        <h2>Calculo de Juros</h2>
+        <div>
+            <h4>Valor inicial:</h4>
+            <input type="number" name="valorinicial" placeholder="R$| 0,00" id="valorinicial">
+        </div>
+        <div>
+            <h4>Taxa de juros mensal:</h4>
+            <input type="number" name="taxamensal" placeholder="0,00 %" id="taxamensal">
+        </div>
+        <div>
+            <h4>Período de pagamento (em meses):</h4>
+            <input type="number" name="periodo" placeholder="periodo em meses" id="periodo">
+        </div>
+
+        <br>
+        <br>
+
+        <div class="botao">
+            <input type="button" value="Calcular" onclick="calculajuro()">
+        </div>
+        <br>
+        <br>
+        <br>
+        <b>
+            <div class="resultados" id="resultados"></div>
+        </b>
+        <br>
+            <b><div class="juros" id="juros"></div></b>
+
+    </div>
+   
+    <script src="js/index.js"></script>
+</body>
+
+</html>
